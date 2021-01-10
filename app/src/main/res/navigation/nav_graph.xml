@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/codeGloFragment">
+
+    <fragment
+        android:id="@+id/codeGloFragment"
+        android:name="com.bala.codeglotask.ui.fragment.CodeGloFragment"
+        android:label="CodeGloFragment"
+        tools:layout="@layout/fragment_code_glo"/>
+
+</navigation>
